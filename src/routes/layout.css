@@ -1,2 +1,54 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
+
+/* Advercase */
+@font-face {
+  font-family: 'Advercase';
+  src: url('/fonts/Advercase-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Computer Modern Serif */
+@font-face {
+  font-family: 'CMU Serif';
+  src: url('/fonts/cmu.serif-roman.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Helvetica Neue LT */
+@font-face {
+  font-family: 'Helvetica Neue LT';
+  src: url('/fonts/HelveticaNeueLTW0545Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Palatino LT Family */
+@font-face {
+  font-family: 'Palatino LT';
+  src: url('/fonts/Palatino LT Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Palatino LT';
+  src: url('/fonts/Palatino LT Roman.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Palatino LT';
+  src: url('/fonts/Palatino LT Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
