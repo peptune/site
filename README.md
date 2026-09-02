@@ -1,42 +1,13 @@
-# sv
+## <img src="https://github.com/user-attachments/assets/143f5e7d-a5e2-4ee1-b85c-9dc508ac3273" height="36" align="center" alt="logo" />  <samp>peptune</samp>
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+<samp> 
 
-## Creating a project
+an indie creative studio making games& apps for the internet!
 
-If you're seeing this, you've probably already done this step. Congrats!
+currently-
+1. [yotsuba](https://github.com/atabzo/yotsuba): a 2d story based game based on [yotsuba](https://en.wikipedia.org/wiki/Yotsuba%26!)'s summer adventures!
+2. [nekobin](https://github.com/atabzo/nekobin): a pastebin app with webmaster nebula (a kitten!) as the mascot.
 
-```sh
-# create a new project
-npx sv create my-app
-```
-
-To recreate this project with the same configuration:
-
-```sh
-# recreate this project
-npx sv@0.17.0 create --template minimal --types ts --add tailwindcss="plugins:typography" eslint prettier vitest="usages:unit,component" sveltekit-adapter="adapter:auto" --install npm demo
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+feel free to reach out at peptune@atabzo.com or [checkout our website!
+](http://peptune.atabzo.com/)
+</samp>

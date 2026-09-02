@@ -2,13 +2,11 @@
 @plugin '@tailwindcss/typography';
 
 /* Advercase */
-@font-face {
-  font-family: 'Advercase';
-  src: url('/fonts/Advercase-Regular.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
+html {
+  font-family: 'PolySans Slim', 'Helvetica Neue LT', sans-serif;
+  background-color: #ffe9e9;
 }
+
 
 /* Computer Modern Serif */
 @font-face {
@@ -37,18 +35,30 @@
   font-display: swap;
 }
 
+
+/* Roman */
 @font-face {
-  font-family: 'Palatino LT';
-  src: url('/fonts/Palatino LT Roman.ttf') format('truetype');
+  font-family: 'Pixel';
+  src: url('./fonts/PixelHackers.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
+/* PolySans Relax */
 @font-face {
-  font-family: 'Palatino LT';
-  src: url('/fonts/Palatino LT Italic.ttf') format('truetype');
+  font-family: 'PolySans';
+  src: url('./fonts/PolySans-Slim.woff2') format('woff2');
   font-weight: 400;
-  font-style: italic;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* PolySans Slim */
+@font-face {
+  font-family: 'PolySans Neutral';
+  src: url('./fonts/PolySans-Neutral.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
   font-display: swap;
 }
